@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    color: red;
+}
+.fundo-branco{
+    background-color: white;
+    height: 100px;
+    width: 5px;
+  
+ }
+
+ .fundo-preto{
+    background-color: black;
+    height: 100px;
+    width: 5px;
+
+ }
+ 
