@@ -1,17 +1,19 @@
 <html>
     <head>
         <script src="genefy.js"></script>
+        <link href="genefy.css" rel="stylesheet"></link>
 
     </head>
     <body onload()="document.getElementById('mymusic').load;document.getElementById('mymusic').play();">
-        <h1>Player</h1>
+        <h1>Player Top</h1>
         <hr/>
-        <audio id="mymusic" src="audio.mp3" control></audio>
+        <audio id="mymusic" src="audio1.mp3" controls autoplay></audio>
 
-        <button onclick="tocaAnterior();">PREV</button>
-        <button onclick="tocaAnterior();">PLAY</button>
-        <button onclick="tocaAnterior();">STOP</button>
-        <button onclick="tocaAnterior();">NEXT</button>
+        <button class="btn botao-cor-especial" onclick="tocaAnterior();">PREV</button>
+        <button class="btn botao-cor-especial" onclick="tocaAtual();">PLAY</button>
+        <button class="btn botao-cor-especial" onclick="paraTudo();">STOP</button>
+        <button class="btn botao-cor-especial" onclick="tocaPróxima();">NEXT</button>
+
     
     </body>
 </html>

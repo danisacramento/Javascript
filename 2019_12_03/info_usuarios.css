@@ -1,0 +1,15 @@
+
+body{
+    background-color: gray;
+}
+
+h1{
+    text-align-last: center;
+}
+.botao-cor-especial {
+    background-color:#b32625;
+    color:black;
+    font-style: bold;
+   
+}
+    
